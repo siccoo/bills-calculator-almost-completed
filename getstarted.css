@@ -1,0 +1,107 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+#main-page{
+    /* max-width: 1000; */
+    margin: auto;
+    width: 80%;
+}
+
+body {
+    background-image: url('images/images_009.jpeg');
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 16px;
+    margin: 7px ;
+    font-weight: bold;
+    line-height: 16px;
+    color: #910202;
+}
+
+span {
+    color: #910202;
+    font-weight: bold;
+}
+
+#form_controls{
+    line-height: 1.4;
+
+}
+
+.box {
+    background-color: rgb(234, 230, 192);
+    color: #fff;
+    border: 3px solid #910202;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0px 20px;
+    width: 50vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    border-radius: 10px;
+    width: 100%;
+    background-color: #3a0b0b;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+input {
+    /* color: #910202; */
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 7px;
+}
+
+input[type="number"] {
+    width: 85%;
+    padding: 7px;
+}
+
+select[name="chooseService"]{
+    width: 94%;
+    padding: 7px;
+}
+
+button{
+    width: 40%;
+    padding: 7px;
+    margin: 30px auto;
+    display: block;
+    background-color: #3a0b0b;
+    color: #f4f4f4;
+    font-size: 2em;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-shadow: 5%;
+    border: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 5vh;
+    justify-content: center;
+}
+
+button:hover {
+    background: #4c2827;
+    /* border-bottom-color: #111; */
+}
+
+
